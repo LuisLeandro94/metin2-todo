@@ -37,6 +37,7 @@ export const NameInput = styled.input`
   border: 1px solid #00a6aa;
   box-sizing: border-box;
   border-radius: 10px;
+  height: 30px;
   .ant-input {
     background: #cecece;
   }
@@ -58,19 +59,17 @@ export const ButtonContainer = styled.div`
 
 export const SignUpButton = styled.button`
   background: #00a6aa;
-  max-width: 270px;
+  max-width: 150px;
   width: 100%;
-  height: 60px;
+  height: 30px;
   border: 3px solid #00a6aa;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  font-size: 20px;
   font-weight: 600;
-  line-height: 36px;
-  letter-spacing: 0.1em;
   color: #cecece;
   cursor: pointer;
   &:hover {
-    background: rgba(0, 166, 170, 0.8);
+    background: rgba(0, 166, 170, 0.6);
     border: none;
     color: #cecece;
     transition: all 0.5s ease;
@@ -81,6 +80,7 @@ export const InputLabel = styled.label`
   color: white;
   width: 100%;
   display: block;
+  padding: 15px 0px;
 `
 
 export const FormContainer = styled.form`
